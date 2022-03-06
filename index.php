@@ -1,14 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <php>
-    echo("Heloooo");
-    </php>
-</body>
+<html>
+  <head>
+    <title>PHP Test</title>
+  </head>
+  <body>
+
+    <?php 
+$x = 26;
+$y = 'Hello world!';
+
+echo $x;
+echo "<br>"; 
+echo $y;
+?>
+  <?php  
+$x = 53385;
+var_dump($x);
+
+$cars = array("Volvo","BMW","Toyota");
+echo $cars;
+
+
+
+?>
+
+  </body>
 </html>
